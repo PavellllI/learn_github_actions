@@ -1,0 +1,172 @@
+body{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: linear-gradient(0deg, rgb(100, 100, 100), rgb(190, 190, 190));
+}
+header{
+    background-image: url(../../img/photo-70099.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.container{
+    width: 1440px;
+}
+.info__time{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-right:4em;
+        padding-left: 4em;
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 100;
+        }
+        p{
+            font-family: 16px;
+            color: white;
+        }
+    }
+}
+.info__text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p{
+        padding-bottom: 1em;
+        color: white;
+        font-weight: 400;
+    }
+}
+.history{
+    height:auto;
+    height: 720px;
+
+    &__info{
+        padding: 5em 5em 5em 5em;
+    }
+    img{
+       height: 720px; 
+    }
+    article{
+        background-color: rgb(70, 70, 70);
+        color: rgb(170, 170, 170);
+        h2{
+            font-size: 50px;
+            font-weight: 100;
+            padding-bottom:1em ;
+            
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+
+}
+.features{
+    
+    height: 720px;
+    
+    article{
+        padding: 5em 5em 5em 5em;
+        background-color: rgb(70, 70, 70);
+        color: rgb(170, 170, 170);
+        height: 720px;
+    }
+    img{
+        height: 720px;
+        width: 720px;
+    }
+    &__block{
+        padding: 2em 1em 1em 1em;
+        h3{
+            color: white;
+            padding-bottom: 1em;
+        }
+    }
+    &__symbol{
+        color:yellow;
+        height: 50px;
+        width: 50px;
+        
+    }
+    &__symbols{
+        padding-top: 1em;
+        svg{
+            height: 50px;
+            width: 50px;
+            padding-right: 1em;
+        }
+       
+    }
+    &--pounds{
+        display: flex;
+        justify-content: end;
+    }
+    
+    h2{
+        font-size: 50px;
+        font-weight: 100;
+        padding-bottom: 0.25em;
+    }
+    h3{
+        padding-top: 1em;
+    }
+}
+.jobs{
+    height: 720px;
+    &__images{
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            height: 240px;
+            width:360px ;
+        }
+        
+    }
+    &__info{
+        padding: 5em 5em 5em 5em;
+        background-color: rgb(70, 70, 70);
+        color: rgb(170, 170, 170); 
+
+        img{
+            max-width: 240px;
+            max-height: 240px;
+        }
+    }
+    &__main-txt{
+        padding-bottom:2em ;
+        h2{
+            font-size: 50px;
+        font-weight: 100;
+        padding-bottom: 0.25em;
+        }
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__card{
+
+        max-width: 240px;
+        max-height: 480px;
+        h3{
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            color: white;
+            font-size: 24px;
+        }
+    }
+}
+
+

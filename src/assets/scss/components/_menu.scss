@@ -1,0 +1,19 @@
+.menu{
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding:1rem 3rem 1rem 0rem;
+    margin: 0 auto;
+    gap: 40px;
+    align-items: center;
+    
+    
+}
+.menu>li:nth-child(1){
+    margin-right: auto;
+    
+}
+.symbol{
+    color: white;
+}
